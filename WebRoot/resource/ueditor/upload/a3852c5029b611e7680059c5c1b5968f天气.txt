@@ -1,0 +1,3 @@
+String baiduUrl = "http://api.map.baidu.com/telematics/v3/weather?location="+URLEncoder.encode("–Ï÷›", "utf-8")+"&output=json&ak=RI7hpv8BHQPIR7NAUK8ezfkH";
+
+		String weather=HttpUtil.sendGet(baiduUrl,"utf-8");
